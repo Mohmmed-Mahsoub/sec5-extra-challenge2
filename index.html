@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>game</title>
+        
+        <!--nice reset -->
+        
+        <link rel = "stylesheet" href = "css/normalize.css" />
+        
+        <!-- font awsome libarary -->
+        
+        <link rel = "stylesheet" href = "css/fontawesome.min.css" />
+        <link rel = "stylesheet" href = "css/brands.min.css" />
+        <link rel = "stylesheet" href = "css/solid.min.css" />
+        
+        <!-- main css style file -->
+        
+        <link rel = "stylesheet" href = "css/main.css" />
+        
+    </head>
+    <body>
+        <section class="admin">
+            <form>
+                <label>Question</label>
+                <input class="question" type="text" placeholder="Enter the question">
+                <div class="answers">
+                    <label>Answers</label>
+                    <input class="answer-1" type="text" placeholder="Enter the first answer">
+                    <input class="answer-2" type="text" placeholder="Enter the second answer">
+                    <input class="answer-3" type="text" placeholder="Enter the third answer">
+                </div>
+                <label>correct answer</label>
+                <input class="correct-ans" type="text" placeholder="Enter the number of correct answer">
+                <button class="submit" type="submit">submit</button>
+            </form>
+            <button class="start">start the game</button>
+        </section>
+        
+        <section class="show-case hide">
+            <div class="form">
+                <form>
+                    <label>Choose the correct answer: </label>
+                    <input type="text"> 
+                </form>
+            </div>
+            
+            <div class="show">
+                <div class="show-questions"></div>
+                <div class="state">
+                    <div class="check"></div>
+                    <div class="score"></div>
+                </div>
+            </div>
+            <button class="back">add mre questions</button>
+        </section>
+        
+        
+        <script src="js/custom.js"> </script>
+    
+    </body>
+</html>

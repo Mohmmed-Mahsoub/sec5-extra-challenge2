@@ -1,0 +1,79 @@
+/* Start Global */
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #e8e8e8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+/* End Global*/
+
+/* Start Admin */
+.admin {
+    width: 30%;
+    height: 60vh;
+}
+.admin form {
+    display: flex;
+    flex-direction: column;
+}
+.admin form .answers {
+    display: flex;
+    flex-direction: column;
+}
+.admin input, .admin label, .admin button {
+    margin-top: 1rem;
+}
+
+/* End Admin */
+
+/* Start Show Case */
+/*
+.show-case{
+    width: 35vw;
+    box-shadow: 5px 5px 20px #333, -5px -5px 20px #333;
+}
+*/
+.form {
+    box-shadow: 5px 5px 20px #333, -5px -5px 20px #333;
+}
+.form form {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.show-case button {
+    margin: 2rem 0;
+}
+.show {
+    width: 35vw;
+    height: 200px;
+    box-shadow: 5px 5px 20px #333, -5px -5px 20px #333;
+    padding: 1rem 2rem;
+    position: relative;
+}
+.state {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid;
+    height: 20px;
+    position: absolute;
+    bottom: 5px;
+    width: 88%;
+}
+.state .check {
+    color: #720202;
+}
+
+/* End Show Case */
+
+.hide {
+    visibility: hidden;
+}
